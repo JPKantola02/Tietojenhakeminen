@@ -8,7 +8,7 @@ const icon_img = document.querySelector('img');
 
 const url = 'https://api.openweathermap.org/data/2.5/weather?';
 const icon_url = 'http://openweathermap.org/img/wn/';
-const api_key = '090ce717da3abe6bbab7a74871d84e2a'; // Replace 'YOUR_API_KEY' with your actual API key
+const api_key = '090ce717da3abe6bbab7a74871d84e2a';
 
 const getLocation = () => {
     if (navigator.geolocation) {
