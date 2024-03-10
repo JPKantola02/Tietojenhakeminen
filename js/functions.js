@@ -1,4 +1,4 @@
-// functions.js
+
 
 const temp_span = document.querySelector('#temp');
 const speed_span = document.querySelector('#speed');
@@ -8,7 +8,7 @@ const icon_img = document.querySelector('img');
 
 const url = 'https://api.openweathermap.org/data/2.5/weather?';
 const icon_url = 'http://openweathermap.org/img/wn/';
-const api_key = '090ce717da3abe6bbab7a74871d84e2a';
+const api_key = 'API AVAIN';
 
 const getLocation = () => {
     if (navigator.geolocation) {
